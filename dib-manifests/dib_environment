@@ -1,0 +1,5 @@
+declare -x DIB_ARGS="vm bootloader cloud-init-datasources ubuntu-custom -t qcow2 -o /root/images/Ubuntu-24.04-amd64-GenericCloud -x"
+declare -x DIB_BOOTLOADER_DEFAULT_CMDLINE="net.ifnames=0"
+declare -x DIB_CLOUD_INIT_DATASOURCES="OpenStack"
+declare -x DIB_PYTHON_EXEC="/usr/bin/python3"
+declare -x DIB_RELEASE="noble"

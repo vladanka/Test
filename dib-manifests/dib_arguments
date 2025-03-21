@@ -1,0 +1,1 @@
+vm bootloader cloud-init-datasources ubuntu-custom -t qcow2 -o /root/images/Ubuntu-24.04-amd64-GenericCloud -x
